@@ -1,0 +1,22 @@
+{
+  "name": "MMS Picture Roulette",
+  "description": "Text the name of a word. Maybe get a relevant picture back.",
+  "logo": "https://static1.twilio.com/packages/company/img/logos_icon_round.png",
+  "repository": "https://github.com/makaimc/picture-roulette",
+  "keywords": ["twilio", "flickr", "flask", "mms"],
+  "env": {
+    "SECRET_KEY": {
+      "description": "A secret key for Flask.",
+      "generator": "secret"
+    },
+    "TWILIO_ACCOUNT_SID": {
+      "description": "Your Twilio account id"
+    },
+    "TWILIO_AUTH_TOKEN": {
+      "description": "Your Twilio authentication token"
+    },
+    "FLICKR_API_KEY": {
+      "description": "Your Flickr API key"
+    }
+  }
+}

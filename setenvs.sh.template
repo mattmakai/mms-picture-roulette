@@ -1,0 +1,10 @@
+#!/bin/bash
+export DEBUG=True
+export SECRET_KEY='developer key'
+
+# Twilio credentials
+export TWILIO_ACCOUNT_SID=''  # found on Twilio dashboard
+export TWILIO_AUTH_TOKEN=''   # also found on Twilio dashboard
+
+# Flickr credentails
+export FLICKR_API_KEY=''      # obtain from Flickr API page
