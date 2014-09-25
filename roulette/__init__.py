@@ -1,6 +1,6 @@
 from flask import Flask
 
 app = Flask(__name__)
-app.config.from_object('cheerup.config')
+app.config.from_object('roulette.config')
 
 from . import views
