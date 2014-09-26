@@ -1,7 +1,7 @@
 # Picture Roulette MMS
 <a href="https://heroku.com/deploy?template=https://github.com/makaimc/mms-picture-roulette/"><img src="https://www.herokucdn.com/deploy/button.png" alt="Deploy on Heroku"></a>
 
-Picture Roulette is a game of change that uses the Twilio and Flickr APIs. 
+Picture Roulette is a game of chance that uses the Twilio and Flickr APIs. 
 Flickr's tags are only as accurate as the humans who apply them to photos. 
 
 This program was originally designed to query a tag for a relevant picture. 
